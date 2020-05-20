@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "site",
+      "type": "com.mtons.mblog.config.SiteOptions",
+      "sourceType": "com.mtons.mblog.config.SiteOptions"
+    },
+    {
+      "name": "site.controls",
+      "type": "com.mtons.mblog.config.SiteOptions$Controls",
+      "sourceType": "com.mtons.mblog.config.SiteOptions",
+      "sourceMethod": "getControls()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "site.location",
+      "type": "java.lang.String",
+      "description": "运行文件存储路径",
+      "sourceType": "com.mtons.mblog.config.SiteOptions"
+    },
+    {
+      "name": "site.options",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "属性配置",
+      "sourceType": "com.mtons.mblog.config.SiteOptions"
+    },
+    {
+      "name": "site.version",
+      "type": "java.lang.String",
+      "description": "系统版本号",
+      "sourceType": "com.mtons.mblog.config.SiteOptions"
+    }
+  ],
+  "hints": []
+}
